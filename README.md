@@ -14,9 +14,7 @@
 
 ## Intro M3DBench
 
-M3DBench introduces a comprehensive 3D instruction-following dataset that encompasses a variety of 3D vision-centric tasks, spanning fundamental abilities in real-world 3D environments.
-M3DBench supports multi-modal instructions interleaved with diverse visual prompts.
-M3DBench provides a new benchmark for assessing large models across 3D tasks.
+M3DBench introduces a **comprehensive** 3D instruction-following dataset with support for **interleaved multi-modal prompts**, covering a variety of fundamental abilities in real-world 3D environments. Furthermore, M3DBench provides a new **benchmark** to assess large models across 3D vision-centric tasks.
 
 <details open="open">
     <summary><b>Abstract</b></summary>
@@ -28,9 +26,9 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 <!-- <img width="1194" alt="pipeline" src="assets/pipeline.png">
 </details> -->
 
-## 🚩 News
+## 📝 News
 
-- [2023/11/30] Upload paper and init project
+- [2023/12/15] Upload paper and initialize the project page
 
 ## ⚡ Quick Start
 
@@ -58,17 +56,7 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 
 If you find our code or paper helps, please consider starring ⭐ us and citing:
 
-```bibtex
-@misc{yin2023shapegpt,
-      title={ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model}, 
-      author={Fukun Yin and Xin Chen and Chi Zhang and Biao Jiang and Zibo Zhao and Jiayuan Fan and Gang Yu and Taihao Li and Tao Chen},
-      year={2023},
-      eprint={2311.17618},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
 
-```
 
 ## Acknowledgments
 
