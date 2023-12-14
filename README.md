@@ -7,6 +7,7 @@
     <a href="https://github.com/OpenM3D/M3DBench">Dataset</a> •
     <a href="#-citation">Citation
   </p>
+  <br>
   <img width="90%" src=./assets/teaser.png>
 </div>
 
