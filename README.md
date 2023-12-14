@@ -3,11 +3,11 @@
 <div align="center">
   <p align="center">
     <a href="https://m3dbench.github.io/">Project Page</a> •
-    <a href="">Arxiv Paper</a> •
-    <a href="">Dataset</a> •
+    <a href="https://github.com/OpenM3D/M3DBench">Arxiv Paper</a> •
+    <a href="https://github.com/OpenM3D/M3DBench">Dataset</a> •
     <a href="#-citation">Citation
   </p>
-  <img src=./assets/teaser.png>
+  <img width="90%" src=./assets/teaser.png>
 </div>
 
 
