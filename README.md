@@ -8,7 +8,7 @@
     <a href="#-citation">Citation
   </p>
   <br>
-  <img width="90%" src=./assets/teaser.png>
+  <img width="95%" src=./assets/teaser.png>
 </div>
 
 
