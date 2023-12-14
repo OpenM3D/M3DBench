@@ -26,22 +26,23 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 <!-- <img width="1194" alt="pipeline" src="assets/pipeline.png">
 </details> -->
 
-## 📝 News
+## News
 
 - [2023/12/15] Upload paper and initialize the project page
 
-## ⚡ Quick Start
+## Set up
 
 <details>
-  <summary><b>Setup and download</b></summary>
-
-### 1. Environment
-
-### 2. Data
-
+  <summary><b>Environment</b></summary>
 </details>
 
-## 💻 Train your own models
+<details>
+  <summary><b>Data</b></summary>
+</details>
+
+
+
+## Train your own model
 
 <details>
   <summary><b>Training</b></summary>
