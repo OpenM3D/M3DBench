@@ -1,9 +1,14 @@
+<div align= "center">
+    <h1> M3DBench </h1>
+
+</div>
+
 <div align="center">
   <h1><a href="https://m3dbench.github.io/">M3DBench: Let's Instruct Large Models with <br> Multi-modal 3D Prompts</a></h1>
   <p align="center">
-    <a href="https://m3dbench.github.io/">Project Page</a> •
-    <a href="https://github.com/OpenM3D/M3DBench">Arxiv Paper</a> •
-    <a href="https://github.com/OpenM3D/M3DBench">Dataset</a> •
+    <a href="https://m3dbench.github.io/">💡Project Page</a> •
+    <a href="https://github.com/OpenM3D/M3DBench">📃Arxiv Paper</a> •
+    <a href="https://github.com/OpenM3D/M3DBench">🗂Dataset</a> •
     <a href="#citation">Citation
   </p>
   <br>
