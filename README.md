@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <h1>M3DBench: Let's Instruct Large Models with <br> Multi-modal 3D Prompts/h1>
+  <h1>M3DBench: Let's Instruct Large Models with <br> Multi-modal 3D Prompts</h1>
   <p align="center">
     <a href="https://m3dbench.github.io/">💡Project Page</a> •
     <a href="https://github.com/OpenM3D/M3DBench">📃Arxiv Paper</a> •
