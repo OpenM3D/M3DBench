@@ -9,14 +9,14 @@
     <a href="https://m3dbench.github.io/">💡Project Page</a> •
     <a href="https://github.com/OpenM3D/M3DBench">📃Arxiv Paper</a> •
     <a href="https://github.com/OpenM3D/M3DBench">🗂Dataset</a> •
-    <a href="#citation">Citation
+    <a href="📖#citation">Citation
   </p>
   <br>
   <img width="95%" src=./assets/teaser.png>
 </div>
 
 
-## Intro M3DBench
+## 🏃 Intro M3DBench
 
 M3DBench introduces a **comprehensive** 3D instruction-following dataset with support for **interleaved multi-modal prompts**, covering a variety of fundamental abilities in real-world 3D environments. Furthermore, M3DBench provides a new **benchmark** to assess large models across 3D vision-centric tasks.
 
@@ -30,11 +30,11 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 <!-- <img width="1194" alt="pipeline" src="assets/pipeline.png">
 </details> -->
 
-## News
+## 🚩 News
 
 - [2023/12/15] Upload paper and initialize the project page
 
-## Set up
+## ⚡ Set up
 
 <details>
   <summary><b>Environment</b></summary>
@@ -46,7 +46,7 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 
 
 
-## Train your own model
+## 💻 Train your own model
 
 <details>
   <summary><b>Training</b></summary>
@@ -57,7 +57,7 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 </details>
 
 
-## Citation
+## 📖 Citation
 
 If you find our code or paper helps, please consider starring ⭐ us and citing:
 
