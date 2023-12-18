@@ -9,7 +9,7 @@
     <a href="https://m3dbench.github.io/">💡Project Page</a> •
     <a href="https://github.com/OpenM3D/M3DBench">📃Arxiv Paper</a> •
     <a href="https://github.com/OpenM3D/M3DBench">🗂Dataset</a> •
-    <a href="#citation">📖Citation</a>
+    <a href="#-citation">📖Citation
   </p>
   <br>
   <img width="95%" src=./assets/teaser.png>
