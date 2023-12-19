@@ -57,7 +57,16 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 ## 📖 Citation
 
 If you find our code or paper helps, please consider starring ⭐ us and citing:
-
+'''
+@misc{li2023m3dbench,
+      title={M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts}, 
+      author={Mingsheng Li and Xin Chen and Chi Zhang and Sijin Chen and Hongyuan Zhu and Fukun Yin and Gang Yu and Tao Chen},
+      year={2023},
+      eprint={2312.10763},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+'''
 
 
 ## Acknowledgments
