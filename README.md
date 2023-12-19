@@ -56,7 +56,7 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 
 ## 📖 Citation
 
-If you find our dataset or paper helps, please consider starring ⭐ us and citing:
+If you find our work helps, please consider starring ⭐ us and citing:
 
 ```{bibtex}
 @misc{li2023m3dbench,
