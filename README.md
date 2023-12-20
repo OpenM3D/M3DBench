@@ -29,7 +29,7 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 
 ## 🚩 News
 
-- [2023/12/15] Upload paper and initialize the project page
+- [2023/12/15] Upload paper and init the project page
 
 ## ⚡ Set up
 
