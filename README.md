@@ -105,7 +105,6 @@ You'll need to download the following pre-trained weights for the scene encoder,
    Download the pre-trained checkpoint from [3D-VisTA](https://github.com/3d-vista/3D-VisTA).
 
 4. **LLM**
-
    If your server doesn't support auto-downloading from huggingface, manually download the `meta-llama/Llama-2-7b` checkpoint (or another decoder-only LLM) from [Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b).
 
 </details>
