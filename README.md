@@ -5,7 +5,8 @@
   <p align="center">
     <a href="https://m3dbench.github.io/">💡Project Page</a> •
     <a href="https://arxiv.org/abs/2312.10763">📃Arxiv Paper</a> •
-    <a href="https://github.com/OpenM3D/M3DBench">🗂Dataset</a> •
+    <a href="https://huggingface.co/datasets/MSheng-Lee/M3DBench">🗂Dataset</a> •
+    <a href="https://github.com/OpenM3D/M3DBench">🤗Checkpoint •
     <a href="#-citation">📖Citation
   </p>
   <br>
@@ -29,17 +30,87 @@ Recently, 3D understanding has become popular to facilitate autonomous agents to
 
 ## 🚩 News
 
-- [2023/12/15] Upload paper and init the project page
+- [2024/09] **Upload the code** 
+- [2024/08] **Release the M3DBench to boost MLLM's 3D perception, reasoning, and planning. See [datasets](https://huggingface.co/datasets/MSheng-Lee/M3DBench).**
+- [2024/07] 🎉 **M3DBench is accepted by ECCV 2024**!
+
+### TODO:
+<!-- - []  **Upload the code**. -->
+- [ ] **Upload training and evaluation scripts**.
+- [ ] **Release pre-trained Checkpoint**.
+- [ ] **Scale up models**.
 
 ## ⚡ Set up
 
 <details>
-  <summary><b>Environment</b></summary>
+  <summary><b>Environment Setup</b></summary>
+
+**Step 1. Build Dependencies.** Our code is tested with CUDA 12.2 and Python 3.8.19. It is recommended to create a virtual environment [Optional].
+
+```bash
+conda create -n m3dbench python=3.8
+conda activate m3dbench
+```
+
+Next, you should install the following packages:
+
+```bash
+pip install h5py
+pip install scipy
+pip install cython
+pip install plyfile
+pip install trimesh==2.35.39
+pip install networkx==2.2
+pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu121
+pip install transformers==4.44.2
+pip install numpy==1.19.5
+```
+
+After that, build the `pointnet2` and accelerated `giou` from source:
+
+```bash
+cd third_party/pointnet2
+python setup.py install
+```
+
+```bash
+cd ../../utils
+python cython_compile.py build_ext --inplace
+```
+
 </details>
 
+
+
 <details>
-  <summary><b>Data</b></summary>
+  <summary><b>Data and Pre-trained Weights Preparation</b></summary>
+
+**Step 1. Prepare the 3D Data and Language Annotations.**
+
+Please refer to the instructions available [here](https://huggingface.co/datasets/MSheng-Lee/M3DBench) to download the pre-processed 3D data and language annotations from M3DBench.
+
+**Step 2. Download Pre-trained weights.** 
+
+You'll need to download the following pre-trained weights for the scene encoder, image encoder, shape encoder, and LLM:
+
+1. **Scene Encoder**  
+   We offer two types of 3D scene encoders:  
+   - For the PointNet-based encoder, download from [DepthContrast](https://github.com/facebookresearch/DepthContrast).  
+   - For the transformer-based encoder, download from [Vote2Cap-DETR](https://github.com/ch3cook-fdu/Vote2Cap-DETR).
+
+2. **Image Encoder**  
+   Download the `openai/clip-vit-large-patch14-336` checkpoint (or another image encoder) from [Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b).
+
+3. **Shape Encoder**  
+   Download the pre-trained checkpoint from [3D-VisTA](https://github.com/3d-vista/3D-VisTA).
+
+4. **LLM**
+
+   If your server doesn't support auto-downloading from huggingface, manually download the `meta-llama/Llama-2-7b` checkpoint (or another decoder-only LLM) from [Hugging Face](https://huggingface.co/meta-llama/Llama-2-7b).
+
 </details>
+
+
 
 
 
@@ -72,7 +143,7 @@ If you find our work helps, please consider starring ⭐ us and citing:
 
 ## Acknowledgments
 
-Thanks to [DepthContrast](https://github.com/facebookresearch/DepthContrast), [Vote2Cap-DETR](https://github.com/ch3cook-fdu/Vote2Cap-DETR), [OPT](https://huggingface.co/facebook/opt-6.7b), [Llama 2](https://huggingface.co/meta-llama), and [Vicuna](https://huggingface.co/lmsys/vicuna-7b-v1.5). We borrow some of their codes and checkpoints.
+Thanks to [DepthContrast](https://github.com/facebookresearch/DepthContrast), [LL3DA](https://github.com/Open3DA/LL3DA), [CLIP](https://github.com/openai/CLIP), [3D-VisTA](https://github.com/3d-vista/3D-VisTA), [OPT](https://huggingface.co/facebook/opt-6.7b), and [Llama 2](https://huggingface.co/meta-llama). We borrow some of their codes and checkpoints.
 
 
 
