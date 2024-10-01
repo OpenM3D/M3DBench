@@ -10,7 +10,7 @@
     <a href="#-citation">📖Citation
   </p>
   <br>
-  <img width="95%" src=./assets/teaser.png>
+  <img width="95%" src=./images/teaser.png>
 </div>
 
 
